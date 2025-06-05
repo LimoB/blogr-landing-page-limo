@@ -221,7 +221,7 @@ body,html{
     width: 100%;
     min-height: 100vh;
     position: relative;
-    padding: 10rem 0 3rem 10rem;
+    padding: 3rem 2rem;
     background: hsl(0, 26%, 96%);
     z-index: 2;
 }
@@ -337,7 +337,7 @@ body,html{
 .features{
     width: 100%;
     position: relative;
-    padding: 15rem 10rem 15rem 0;
+    padding: 3rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -388,7 +388,7 @@ body,html{
 
 footer{
     width: 100%;
-    padding: 4rem 10rem 6rem;
+    padding: 3rem 2rem;
     background: hsl(240, 10%, 16%);
     display: flex;
     justify-content: space-between;
@@ -549,7 +549,7 @@ footer .attribution a{
     }
 
     .services{
-        padding: 8rem 2rem;
+        padding: 3rem 2rem;
         flex-wrap: wrap;
         justify-content: space-between;
     }
