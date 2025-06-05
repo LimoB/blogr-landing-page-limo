@@ -6,16 +6,9 @@
 }
 
 body,html{
-        height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    
     overflow-x: hidden;
     background: hsl(0, 26%, 96%);
 }
-
 
 /** Header starts here **/
 
@@ -23,7 +16,7 @@ body,html{
     width: 100%;
     height: 100vh;
     position: relative;
-    background: url(images/bg-pattern-intro-desktop.svg);
+    background: url(images/bg-pattern-intro.svg);
     background-position: center;
     background-size: 150%;
     padding: 4rem 10rem;
@@ -228,7 +221,7 @@ body,html{
     width: 100%;
     min-height: 100vh;
     position: relative;
-    padding:  3rem 2rem;
+    padding: 10rem 0 3rem 10rem;
     background: hsl(0, 26%, 96%);
     z-index: 2;
 }
@@ -271,12 +264,10 @@ body,html{
 .description .description-content .description-content-rightcolumn{
     position: relative;
     flex-basis: 50%;
-    max-width: 100%;
-    overflow: hidden;
 }
 
 .description .description-content .description-content-rightcolumn .desktop-editor{
-    width: 100%;
+    width: 150%;
     position: relative;
 }
 
@@ -288,7 +279,7 @@ body,html{
 
 .services{
     width: 100%;
-    padding: 3rem 2rem;
+    padding: 8rem 10rem;
     position: relative;
     background: hsl(237, 17%, 21%);
     display: flex;
@@ -334,26 +325,19 @@ body,html{
 }
 
 .services .services-leftcolumn .circle-pattern{
-  width: 100%; /* Reduce from 250% */
-    left: 0;
-    top: 0;
+    position: absolute;
+    left: -25rem;
+    top: -50rem;
+    z-index: 1;
+    width: 250%;
 }
-
-.description,
-.services,
-.features,
-footer {
-    height: 100vh; /* instead of min-height or huge padding */
-    overflow: hidden;
-}
-
 
 /** Features starts here **/
 
 .features{
     width: 100%;
     position: relative;
-    padding: 3rem 2rem;
+    padding: 15rem 10rem 15rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -404,7 +388,7 @@ footer {
 
 footer{
     width: 100%;
-    padding: 3rem 2rem;
+    padding: 4rem 10rem 6rem;
     background: hsl(240, 10%, 16%);
     display: flex;
     justify-content: space-between;
@@ -464,7 +448,7 @@ footer .attribution a{
 
 @media (max-width: 991px){
     .header{
-        background: url(images/bg-pattern-intro-mobile.svg);
+        background: url(images/bg-pattern-intro.svg);
         background-position: center;
         background-size: 400%;
         padding: 4rem 1.5rem;
